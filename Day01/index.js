@@ -106,7 +106,7 @@ const reverseString = () => {
 
 function add() {
   rl.question("Enter num 1: ", (a) => {
-    rl.question("Enter num 2:", (b) => {
+    rl.question("Enter num 2: ", (b) => {
       rl.question("Enter num 3: ", (c) => {
         console.log(Number(a) + Number(b) + Number(c));
       });
